@@ -1,0 +1,67 @@
+.PostShare{
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, 0.64);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.PostShare>img{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+.PostShare>div{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 1rem;
+}
+.PostShare>div>input{
+    background-color: rgba(40, 52, 62, 0.07);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+.postoption{
+    display: flex;
+    justify-content: space-around;
+}
+.options{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+}
+.options:hover{
+    cursor: pointer;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.share{
+    border-radius: 10px;
+    width: 70px;
+}
+.previewimage{
+    position: relative;
+}
+.previewimage>svg{
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+}
+.previewimage>img{
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}

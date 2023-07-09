@@ -1,0 +1,21 @@
+.postImage1{
+    width: 100%;
+    max-height: 10rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    
+    
+}
+.post{
+    align-items: centers;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.64);
+}
+.postReact{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-top: 0.2rem;
+}

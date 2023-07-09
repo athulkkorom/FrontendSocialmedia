@@ -1,0 +1,21 @@
+export const Card =[
+    {
+        trend:"Like",
+        share:"986"
+    },
+    {
+        trend:"Photograpy",
+        share:"900"
+    },
+    {
+        trend:"Nature",
+        share:"800"
+    },
+    {
+        trend:"Love",
+        share:"721"
+    },{
+        trend:"passion",
+        share:"650"
+    }
+]

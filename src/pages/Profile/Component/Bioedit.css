@@ -1,0 +1,22 @@
+.bioedit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+.biosub{
+    height: 2rem;
+    width: 4rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+.typebio{
+    height: 6rem;
+    width: 24rem;
+    padding: 1rem;
+}
+.biobutton{
+    padding: 1rem;
+}
